@@ -12,7 +12,7 @@ async def on_ready():
 
 @client.event
 async def on_message(message):
-    if 'message.content.startswith("#レミオロメン:"):
+    if message.content.startswith("#レミオロメン:"):
         kasi = message.content.replace('#レミオロメン:', '')
         with open(kasi) as kasii:
             kasiyaru = kasii.read()
