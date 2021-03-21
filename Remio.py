@@ -11,7 +11,7 @@ async def on_ready():
     print('チャイム')
 
 @client.event
-async def on_message(messsge):
+async def on_message(message):
     if message.content.startswith('#レミオロメン:'):
         kaaaaaaaaaaaaaaaaaaaaaaasiiiiiiiiiiiiiiiiiiii = message.content.replace('#レミオロメン', '')
         with open(kaaaaaaaaaaaaaaaaaaaaaaasiiiiiiiiiiiiiiiiiiii) as f:
