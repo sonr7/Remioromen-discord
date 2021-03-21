@@ -12,8 +12,8 @@ async def on_ready():
 
 @client.event
 async def on_message(message):
-    if message.content.startswith('#レミオロメン:'):
-        kaaaaaaaaaaaaaaaaaaaaaaasiiiiiiiiiiiiiiiiiiii = message.content.replace('#レミオロメン', '')
+    if 'message.content.startswith('#レミオロメン:'):
+        kaaaaaaaaaaaaaaaaaaaaaaasiiiiiiiiiiiiiiiiiiii = message.content.replace('#レミオロメン:', '')
         with open(kaaaaaaaaaaaaaaaaaaaaaaasiiiiiiiiiiiiiiiiiiii) as f:
             kasi = f.read()
         await message.channel.send(kasi)
